@@ -1,18 +1,18 @@
 #include "LinkedList.h"
 // Constructor
-template <class Item_type>
-Linked<Item_type>::Linked() : headPtr(nullptr), tailPtr(nullptr), num_Items(0) {}
+ 
+Linked::Linked() : headPtr(nullptr), tailPtr(nullptr), num_Items(0) {}
 
 // Destructor
-template <class Item_type>
-Linked<Item_type>::~Linked() {
+ 
+Linked::~Linked() {
     clear();
 }
 
 // Add a new item to the front of the list
-template <class Item_type>
-void Linked<Item_type>::push_front(Item_type newItem) {
-    Node<Item_type>* newNode = new Node<Item_type>{ newItem, headPtr };
+ 
+void Linked::push_front(string newItem) {
+    Node* newNode = new Node{ newItem, headPtr };
     headPtr = newNode;
     if (tailPtr == nullptr) {
         tailPtr = headPtr;
@@ -21,9 +21,9 @@ void Linked<Item_type>::push_front(Item_type newItem) {
 }
 
 // Add a new item to the back of the list
-template <class Item_type>
-void Linked<Item_type>::push_back(Item_type newItem) {
-    Node<Item_type>* newNode = new Node<Item_type>{ newItem, nullptr };
+ 
+void Linked::push_back(string newItem) {
+    Node* newNode = new Node{ newItem, nullptr };
     if (tailPtr) {
         tailPtr->nextPtr = newNode;
     }
@@ -34,13 +34,13 @@ void Linked<Item_type>::push_back(Item_type newItem) {
     num_Items++;
 }
 // Remove and return the front item
-template <class Item_type>
-Item_type Linked<Item_type>::pop_front() {
+ 
+string Linked::pop_front() {
     if (isEmpty()) {
-        throw std::underflow_error("List is empty");
+        throw underflow_error("List is empty");
     }
-    Node<Item_type>* tempPtr = headPtr;
-    Item_type frontData = headPtr->data;  // Store the front data
+    Node* tempPtr = headPtr;
+    string frontData = headPtr->data;  // Store the front data
     headPtr = headPtr->nextPtr;           // Move the head pointer
     delete tempPtr;                       // Free memory
     num_Items--;
@@ -54,13 +54,13 @@ Item_type Linked<Item_type>::pop_front() {
 }
 
 // Remove and return the back item
-template <class Item_type>
-Item_type Linked<Item_type>::pop_back() {
+ 
+string Linked::pop_back() {
     if (isEmpty()) {
-        throw std::underflow_error("List is empty");
+        throw underflow_error("List is empty");
     }
-    Node<Item_type>* current = headPtr;
-    Item_type backData;
+    Node* current = headPtr;
+    string backData;
 
     if (headPtr == tailPtr) {
         // If the list has only one item
@@ -84,55 +84,55 @@ Item_type Linked<Item_type>::pop_back() {
 }
 
 // Return the front item without removing it
-template <class Item_type>
-Item_type Linked<Item_type>::check_front() const {
+ 
+string Linked::check_front() const {
     if (isEmpty()) {
-        throw std::underflow_error("List is empty");
+        throw underflow_error("List is empty");
     }
     return headPtr->data;
 }
 
 // Return the back item without removing it
-template <class Item_type>
-Item_type Linked<Item_type>::check_back() const {
+ 
+string Linked::check_back() const {
     if (isEmpty()) {
-        throw std::underflow_error("List is empty");
+        throw underflow_error("List is empty");
     }
     return tailPtr->data;
 }
 
 // Check if the list is empty
-template <class Item_type>
-bool Linked<Item_type>::isEmpty() const {
+ 
+bool Linked::isEmpty() const {
     return num_Items == 0;
 }
 
 // Insert an item at a specific index
-template <class Item_type>
-void Linked<Item_type>::insert(size_t index, const Item_type& item) {
+ 
+void Linked::insert(size_t index, const string& item) {
     if (index == 0) {
-        insertFront(item);
+        push_front(item);
         return;
     }
 
     if (index >= num_Items) {
-        insertBack(item);
+        push_back(item);
         return;
     }
 
-    Node<Item_type>* current = headPtr;
+    Node* current = headPtr;
     for (size_t i = 0; i < index - 1; ++i) {
         current = current->nextPtr;
     }
 
-    Node<Item_type>* newNode = new Node<Item_type>{ item, current->nextPtr };
+    Node* newNode = new Node{ item, current->nextPtr };
     current->nextPtr = newNode;
     num_Items++;
 }
 
 // Remove an item at a specific index
-template <class Item_type>
-bool Linked<Item_type>::remove(size_t index) {
+ 
+bool Linked::remove(size_t index) {
     if (index >= num_Items || isEmpty()) {
         return false;
     }
@@ -142,12 +142,12 @@ bool Linked<Item_type>::remove(size_t index) {
         return true;
     }
 
-    Node<Item_type>* current = headPtr;
+    Node* current = headPtr;
     for (size_t i = 0; i < index - 1; ++i) {
         current = current->nextPtr;
     }
 
-    Node<Item_type>* toDelete = current->nextPtr;
+    Node* toDelete = current->nextPtr;
     current->nextPtr = toDelete->nextPtr;
     if (toDelete == tailPtr) {
         tailPtr = current;
@@ -159,9 +159,9 @@ bool Linked<Item_type>::remove(size_t index) {
 }
 
 // Find the index of the first occurrence of an item
-template <class Item_type>
-size_t Linked<Item_type>::find(const Item_type& item) const {
-    Node<Item_type>* current = headPtr;
+ 
+size_t Linked::find(const string& item) const {
+    Node* current = headPtr;
     size_t index = 0;
     while (current != nullptr) {
         if (current->data == item) {
@@ -174,31 +174,31 @@ size_t Linked<Item_type>::find(const Item_type& item) const {
 }
 
 // Get the number of items in the list
-template <class Item_type>
-int Linked<Item_type>::getSize() const {
+ 
+int Linked::getSize() const {
     return num_Items;
 }
 
-//// Clear the entire list
-//template <class Item_type>
-//void Linked<Item_type>::clear() {
-//    Node<Item_type>* current = headPtr;
-//    while (current != nullptr) {
-//        Node<Item_type>* nextNode = current->nextPtr;
-//        delete current;
-//        current = nextNode;
-//    }
-//    headPtr = tailPtr = nullptr;
-//    num_Items = 0;
-//}
+// Clear the entire list
+ 
+void Linked::clear() {
+    Node* current = headPtr;
+    while (current != nullptr) {
+        Node* nextNode = current->nextPtr;
+        delete current;
+        current = nextNode;
+    }
+    headPtr = tailPtr = nullptr;
+    num_Items = 0;
+}
 
 // Print the list
-template <class Item_type>
-void Linked<Item_type>::print() const {
-    Node<Item_type>* current = headPtr;
+ 
+void Linked::print() const {
+    Node* current = headPtr;
     while (current != nullptr) {
-        std::cout << current->data << " -> ";
+        cout << current->data << " -> ";
         current = current->nextPtr;
     }
-    std::cout << "nullptr" << std::endl;
+    cout << "nullptr" << endl;
 }

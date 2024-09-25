@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Chato El 620\\Documents\\Fall 2024\\Data Structures CS303\\Assignment02\\Assignment02\\",
+  "WorkspaceRootPath": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|C:\\Users\\Chato El 620\\Documents\\Fall 2024\\Data Structures CS303\\Assignment02\\Assignment02\\Assignment02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Q2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|solutionrelative:Q2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Assignment02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|solutionrelative:Assignment02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|C:\\Users\\Chato El 620\\Documents\\Fall 2024\\Data Structures CS303\\Assignment02\\Assignment02\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|solutionrelative:Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\function.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|solutionrelative:function.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|solutionrelative:Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|solutionrelative:LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Q1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|solutionrelative:Q1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|solutionrelative:LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|C:\\Users\\Chato El 620\\Documents\\Fall 2024\\Data Structures CS303\\Assignment02\\Assignment02\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|solutionrelative:LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\names.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{637BA137-D59E-414F-9B97-4CF1485276BB}|Assignment02.vcxproj|solutionrelative:names.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +46,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Q2.cpp",
+              "DocumentMoniker": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Q2.cpp",
+              "RelativeDocumentMoniker": "Q2.cpp",
+              "ToolTip": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Q2.cpp",
+              "RelativeToolTip": "Q2.cpp",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-25T04:33:48.915Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "function.h",
+              "DocumentMoniker": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\function.h",
+              "RelativeDocumentMoniker": "function.h",
+              "ToolTip": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\function.h",
+              "RelativeToolTip": "function.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-23T14:55:26.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Q1.cpp",
+              "DocumentMoniker": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Q1.cpp",
+              "RelativeDocumentMoniker": "Q1.cpp",
+              "ToolTip": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Q1.cpp",
+              "RelativeToolTip": "Q1.cpp",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-23T14:55:18.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "names.txt",
+              "DocumentMoniker": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\names.txt",
+              "RelativeDocumentMoniker": "names.txt",
+              "ToolTip": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\names.txt",
+              "RelativeToolTip": "names.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-23T15:17:27.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Stack.cpp",
+              "DocumentMoniker": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Stack.cpp",
+              "RelativeDocumentMoniker": "Stack.cpp",
+              "ToolTip": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Stack.cpp",
+              "RelativeToolTip": "Stack.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-22T23:17:17.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Stack.h",
+              "DocumentMoniker": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Stack.h",
+              "RelativeDocumentMoniker": "Stack.h",
+              "ToolTip": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Stack.h",
+              "RelativeToolTip": "Stack.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-22T23:17:05.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LinkedList.h",
+              "DocumentMoniker": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\LinkedList.h",
+              "RelativeDocumentMoniker": "LinkedList.h",
+              "ToolTip": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\LinkedList.h",
+              "RelativeToolTip": "LinkedList.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-20T01:59:26.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LinkedList.cpp",
-              "DocumentMoniker": "C:\\Users\\Chato El 620\\Documents\\Fall 2024\\Data Structures CS303\\Assignment02\\Assignment02\\LinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\LinkedList.cpp",
               "RelativeDocumentMoniker": "LinkedList.cpp",
-              "ToolTip": "C:\\Users\\Chato El 620\\Documents\\Fall 2024\\Data Structures CS303\\Assignment02\\Assignment02\\LinkedList.cpp",
+              "ToolTip": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\LinkedList.cpp",
               "RelativeToolTip": "LinkedList.cpp",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAAwMsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAALwAAAAAAAAAAAApwKIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-20T02:45:38.579Z",
               "EditorCaption": ""
@@ -40,25 +160,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LinkedList.h",
-              "DocumentMoniker": "C:\\Users\\Chato El 620\\Documents\\Fall 2024\\Data Structures CS303\\Assignment02\\Assignment02\\LinkedList.h",
-              "RelativeDocumentMoniker": "LinkedList.h",
-              "ToolTip": "C:\\Users\\Chato El 620\\Documents\\Fall 2024\\Data Structures CS303\\Assignment02\\Assignment02\\LinkedList.h",
-              "RelativeToolTip": "LinkedList.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-20T01:59:26.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Assignment02.cpp",
-              "DocumentMoniker": "C:\\Users\\Chato El 620\\Documents\\Fall 2024\\Data Structures CS303\\Assignment02\\Assignment02\\Assignment02.cpp",
+              "DocumentMoniker": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Assignment02.cpp",
               "RelativeDocumentMoniker": "Assignment02.cpp",
-              "ToolTip": "C:\\Users\\Chato El 620\\Documents\\Fall 2024\\Data Structures CS303\\Assignment02\\Assignment02\\Assignment02.cpp",
+              "ToolTip": "C:\\Users\\elias\\Documents\\Fall 2024\\CS303 Data Structures\\Assignment02\\Assignment02\\Assignment02.cpp",
               "RelativeToolTip": "Assignment02.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-20T01:53:46.585Z",
               "EditorCaption": ""
