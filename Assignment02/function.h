@@ -6,5 +6,5 @@
 #include <iomanip>
 using namespace std;
 
-void enterLinkedList(); // Declaration for enterLinkedList
+void enterLinkedList(); 
 void enterStackList();

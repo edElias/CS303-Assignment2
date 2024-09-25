@@ -10,14 +10,10 @@ static void displayMenu() {
     cout << "0. Exit\n";
     cout << "Choose an option: ";
 }
-
-//VectorStack myStack
-//loading names into linked list
-//void readFile(Linked& myLinked);
 int main() {
 
     string choice;
-
+    //menu to choose from stacked or linked list
     while(choice!= "0")
     {
         displayMenu();

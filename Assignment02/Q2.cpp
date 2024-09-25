@@ -1,6 +1,5 @@
 #include "function.h"
 
-
 VectorStack myStack;
 
 void loadStack() //load random nums into myStack
@@ -32,6 +31,7 @@ void enterStackList()
 	loadStack();
 	cout << endl;
 
+	//NEW UPDATE pints out current stack
 	cout << "\nNEW UPDATE: ";
 	myStack.print();
 	cout << endl;
@@ -45,7 +45,6 @@ void enterStackList()
 	cout << endl;
 
 	//Finding the top of stack
-
 	cout << "\nFinding the top of your stack...";
 	myStack.FindTop();
 

@@ -22,7 +22,7 @@ void readFile() //load names into myLinked list
 
 void enterLinkedList()
 {
-	readFile();
+	readFile(); //Load Names
 	string name;
 	int userIndex;
 	cout << "This is the current list: " << endl;
@@ -35,7 +35,7 @@ void enterLinkedList()
 	else
 		cout << " No " << endl;
 
-	//Next are push front and back
+	//Enter 2 Names to push to front and back
 	cout << "\nEnter a name to push onto the Front of list: " << endl;
 	cin >> name;
 	myLinked.push_front(name);
@@ -75,7 +75,9 @@ void enterLinkedList()
 	else
 		cout << "Name was found in index: " << temp << endl;
 	
-
+	//Following prints our FRONT and BACK using ONLY VIEW
+	//POP front & back then prints
+	//Removes all items from list, THEN checks if list is empty
 	cout << "\nViewing Head: " << myLinked.check_front() << "\nViewing Tail: " << myLinked.check_back() << endl;
 	cout << "\nPop Front: " << myLinked.pop_front() << "\nPop Back: " << myLinked.pop_back() << endl;
 	cout << "\nRemoved list items" << endl;

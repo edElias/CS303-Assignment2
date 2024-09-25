@@ -2,7 +2,6 @@
 #pragma once
 #include "function.h"
 
- 	
 struct Node {
 	string data;
 	Node* nextPtr; //pointer to the next node structure
